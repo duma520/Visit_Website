@@ -1,0 +1,21 @@
+https://www.tvboxnow.com/memcp.php?action=credits
+
+python visit_website.py --help-cn
+
+        访问指定网站的程序
+        用法:
+            python script.py --url-file urls.txt [可选参数]
+        可选参数:
+            --url-file        包含URL列表的.txt文件路径（必需）
+            --proxy-file      包含代理列表的.txt文件路径（可选）
+            --use-proxy       是否使用代理（可选）
+            --random-ua       随机生成User-Agent（可选）
+            --skip-invalid-proxy 跳过无效代理（可选）
+            --daemon          通宵挂机无人值守模式（可选）
+            --restart         通宵挂机无人值守，程序运行完毕后重新运行（可选）
+            --interval        挂机模式下的间隔时间（秒），默认5秒（可选）
+            --threads         多线程访问，每个线程使用一个代理（默认1）
+            --stats           启用统计功能，显示成功和失败的次数（可选）
+            --progress        启用进度显示功能，显示当前代理和目标网址的进度（可选）
+            --verbose         启用详细输出，显示失败信息（可选）
+            --help-cn         显示中文帮助信息
